@@ -5,7 +5,7 @@ Hopcroft–Karp algorithm
 An algorithm that takes as input a bipartite graph and produces as output a maximum cardinality matching – a set of as many edges as possible with the property that no two edges share an endpoint.
 
 
-As an example – a solution for the problem of optimal assignements.
+As an example – a solution for the problem of optimal assignments.
 
 For instance, 5 employees and 5 jobs represented as matrix ("1" if employee can do the job).
 
