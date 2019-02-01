@@ -122,6 +122,40 @@ public class HopcroftKarpAlgorithm {
 
 
     public static void main(String[] args) {
+        /*
+        Solution for the problem of optimal assignements.
+
+        For instance, 5 employees and 5 jobs represented as matrix ("1" if employee can do the job).
+
+        employee  job1  job2  job3  job4  job5
+           0       1     1     1     1     1
+           1       1     0     0     1     0
+           2       0     1     0     1     0
+           3       0     1     0     1     1
+           4       1     0     0     0     0
+
+        Optimal solution:
+
+        0 - job3
+        1 - job4
+        2 - job2
+        3 - job5
+        4 - job1
+
+        So maximum assignements is 5.
+
+        input:
+        5 5
+        1 1 1 1 1
+        1 0 0 1 0
+        0 1 0 1 0
+        0 1 0 1 1
+        1 0 0 0 0
+
+        output:
+        5
+        */
+
         Scanner in = new Scanner(System.in);
 
         String[] nmline = in.nextLine().split(" ");
