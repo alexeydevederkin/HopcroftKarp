@@ -123,7 +123,7 @@ public class HopcroftKarpAlgorithm {
 
     public static void main(String[] args) {
         /*
-        Solution for the problem of optimal assignements.
+        Solution for the problem of optimal assignments.
 
         For instance, 5 employees and 5 jobs represented as matrix ("1" if employee can do the job).
 
